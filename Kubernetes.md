@@ -1,4 +1,5 @@
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/fadab4c8-2a10-47b3-8e18-3a3baa7a8050/0b3ad3e8-0a99-4bac-8b3d-61ecd26b9fbc/image.png)
+![Kubernetes Diagram](./KubernetesImg.png)
+
 
 - **Cluster**: A set of worker machines, called nodes, that run containerized applications. A Kubernetes cluster includes at least one control plane and one or more worker nodes.
 - **Control Plane**: The component responsible for managing the state of the cluster, making decisions about the cluster (scheduling, scaling), and ensuring the desired state of the system.
