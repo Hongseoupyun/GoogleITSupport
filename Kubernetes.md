@@ -8,7 +8,7 @@
 - **Scheduler**: Decides which node an unscheduled pod should run on based on resource requirements, policies, and available capacity.
 - **API Server**: Acts as the front end of the Kubernetes control plane. It exposes the Kubernetes API, allowing users and services to interact with the cluster.
 - **Nodes**: Worker machines in Kubernetes. Each node runs the services necessary to support the running of pods, and they communicate with the control plane.
-- **Kubelet**: An agent that runs on each node, ensuring that containers are running in a pod as expected. It communicates with the control plane to receive pod definitions.
+- **Kubelet**: An agent that runs on each node, ensuring that containers are running in a pod as expected. It communicates with the control plane to receive pod definitions. It also provides a load balancing for the pods and ensure that traffic is distributed evenly across the pods.
 - **Kubeproxy**: A network proxy that runs on each node and manages network rules to ensure that pods can communicate with each other and the outside world.
 - **Container Runtime**: The software that is responsible for running containers. Popular runtimes include Docker, containerd, and CRI-O.
 - **Pod**: The smallest deployable unit in Kubernetes, which can contain one or more containers that share resources like storage and networking.
